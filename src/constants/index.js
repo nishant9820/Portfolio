@@ -150,7 +150,7 @@ const experiences = [
     company_name: "ReactJs",
     icon: reactjs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2022 - Jan 2023",
     points: [
       "Strong React.js foundation: Master the basics of React.js, including components, props, and state management.",
       "JavaScript proficiency: Excel in JavaScript fundamentals to write clean and efficient React code.",
@@ -163,7 +163,7 @@ const experiences = [
     company_name: "React Native",
     icon: nodejs,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2022 - Feb 2023",
     points: [
       "Proficient in React Native: Master the ins and outs of React Native to develop cross-platform mobile applications.",
       "JavaScript expertise: Excel in JavaScript fundamentals and ES6+ features for efficient React Native development.",
@@ -176,7 +176,7 @@ const experiences = [
     company_name: "Website",
     icon: web,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Dec 2022 - Mar 2023",
     points: [
       "Strong HTML, CSS, and JavaScript skills: Master the core web technologies for creating engaging and interactive websites.",
       "Responsive design expertise: Build websites that adapt seamlessly to different screen sizes and devices for an optimal user experience.",
