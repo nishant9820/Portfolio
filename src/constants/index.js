@@ -270,48 +270,6 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "CineBook",
-    description:
-      "A go-to movie booking app. Browse, select, and book tickets for the latest blockbusters with ease. Enjoy convenience and excitement at your fingertips.",
-    tags: [
-      {
-        name: "react-native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "stripe-api",
-        color: "green-text-gradient",
-      },
-      {
-        name: "moviedb",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: cinebook,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
 ];
 
 export { services, technologies, experiences, blogs, projects };
