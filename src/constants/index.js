@@ -18,13 +18,12 @@ import {
   docker,
   cinebook,
   meta,
-  starbucks,
-  tesla,
-  shopify,
-  jobit,
-  tripguide,
   threejs,
   netflix,
+  insta,
+  facebook,
+  twitter,
+  blog,
 } from "../assets";
 
 export const navLinks = [
@@ -87,10 +86,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -111,54 +110,78 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
+];
+
+const socials = [
   {
-    name: "figma",
-    icon: figma,
+    title: "Instagram",
+    icon: insta,
+    social_url: "https://www.instagram.com/nishant_desai8/",
   },
   {
-    name: "docker",
-    icon: docker,
+    title: "Facebook",
+    icon: facebook,
+    social_url: "https://www.facebook.com/profile.php?id=100010794885920",
+  },
+
+  {
+    title: "Twitter",
+    icon: twitter,
+    social_url: "",
+  },
+  {
+    title: "Blog",
+    icon: blog,
+    social_url: "https://getknowledgeonile.blogspot.com/",
   },
 ];
 
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "ReactJs",
+    icon: reactjs,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Strong React.js foundation: Master the basics of React.js, including components, props, and state management.",
+      "JavaScript proficiency: Excel in JavaScript fundamentals to write clean and efficient React code.",
+      "Component reusability: Create reusable and modular components for easier maintenance and code organization.",
+      "Efficient data handling: Skillfully manage state and data flow within your React applications.",
     ],
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    company_name: "React Native",
+    icon: nodejs,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Proficient in React Native: Master the ins and outs of React Native to develop cross-platform mobile applications.",
+      "JavaScript expertise: Excel in JavaScript fundamentals and ES6+ features for efficient React Native development.",
+      "Component-based UI development: Build modular and reusable UI components for a seamless mobile user experience.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Website",
+    icon: web,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Strong HTML, CSS, and JavaScript skills: Master the core web technologies for creating engaging and interactive websites.",
+      "Responsive design expertise: Build websites that adapt seamlessly to different screen sizes and devices for an optimal user experience.",
+      "Proficiency in front-end frameworks: Excel in popular front-end frameworks like React, Angular, or Vue.js to develop robust and scalable web applications.",
+      "Back-end integration and API knowledge: Understand how to integrate with back-end systems, handle data exchange through APIs, and develop server-side functionality for dynamic web applications.",
     ],
   },
   {
@@ -267,9 +290,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: netflix,
     source_code_link: "https://github.com/",
   },
 ];
 
-export { services, technologies, experiences, blogs, projects };
+export { services, technologies, experiences, blogs, projects, socials };

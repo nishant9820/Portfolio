@@ -22,13 +22,11 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import cinebook from "./cinebook.png";
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import netflix from "./netflix.png";
-
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import insta from "./insta.png";
+import facebook from "./facebook.png";
+import twitter from "./twitter.png";
+import blog from "./blog.png";
 
 export {
   netflix,
@@ -39,6 +37,7 @@ export {
   cinebook,
   mobile,
   web,
+  insta,
   github,
   menu,
   close,
@@ -56,9 +55,7 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
-  tesla,
-  jobit,
-  tripguide,
+  facebook,
+  twitter,
+  blog,
 };

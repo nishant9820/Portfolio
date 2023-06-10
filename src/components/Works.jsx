@@ -3,6 +3,7 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
+import { arrowVariant, slideIn } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -29,11 +30,11 @@ const ProjectCard = ({
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-contain  rounded-2xl"
+            className="w-full  object-contain  rounded-2xl "
           />
         </div>
 
-        <div className="mt-5">
+        <div className="mt-3">
           <div className="flex flex-row justify-between">
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
             <div className=" flex  card-img_hover">
@@ -79,15 +80,18 @@ const Works = () => {
           <p className={`${styles.sectionSubText} `}>My work</p>
           <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
         </motion.div>
-        <motion.div variants={textVariant()}>
-          <button onClick={goToSecond}>
-            <h2>More</h2>
-          </button>
-
-          <p className="text-white font-black animate-bounce mt-3 ml-2 text-[35px] ">
-            ↑
-          </p>
-        </motion.div>
+        <div>
+          <motion.div variants={textVariant()}>
+            <button onClick={goToSecond}>
+              <h2>More</h2>
+            </button>
+          </motion.div>
+          <motion.div variants={arrowVariant()}>
+            <p className="text-white font-black animate-bounce mt-3 ml-2 text-[35px] ">
+              ↑
+            </p>
+          </motion.div>
+        </div>
       </div>
 
       <div className="w-full flex">
