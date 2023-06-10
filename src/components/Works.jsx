@@ -30,11 +30,11 @@ const ProjectCard = ({
           <img
             src={image}
             alt="project_image"
-            className="w-full  object-contain  rounded-2xl "
+            className="w-full  object-contain p-2  rounded-2xl "
           />
         </div>
 
-        <div className="mt-3">
+        <div className="">
           <div className="flex flex-row justify-between">
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
             <div className=" flex  card-img_hover">

@@ -24,6 +24,7 @@ import {
   facebook,
   twitter,
   blog,
+  managehub,
 } from "../assets";
 
 export const navLinks = [
@@ -290,7 +291,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: netflix,
+    image: managehub,
     source_code_link: "https://github.com/",
   },
 ];

@@ -27,6 +27,7 @@ import insta from "./insta.png";
 import facebook from "./facebook.png";
 import twitter from "./twitter.png";
 import blog from "./blog.png";
+import managehub from "./managehub.png";
 
 export {
   netflix,
@@ -58,4 +59,5 @@ export {
   facebook,
   twitter,
   blog,
+  managehub,
 };
