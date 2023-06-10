@@ -40,11 +40,6 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-  {
-    id: "Hello",
-    title: "Hello",
-    url: "http://www.netflix.com",
-  },
 ];
 
 const services = [

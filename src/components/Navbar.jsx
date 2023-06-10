@@ -72,7 +72,6 @@ const Navbar = () => {
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(link.title);
-                    window.open(link.url, "_blank");
                   }}
                 >
                   <a href={`#${link.id}`}>{link.title}</a>
