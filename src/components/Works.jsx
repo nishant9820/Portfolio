@@ -74,10 +74,21 @@ const Works = () => {
   };
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-      </motion.div>
+      <div className="flex flex-row justify-between">
+        <motion.div variants={textVariant()}>
+          <p className={`${styles.sectionSubText} `}>My work</p>
+          <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        </motion.div>
+        <div>
+          <button onClick={goToSecond}>
+            <h2>More</h2>
+          </button>
+
+          <p className="text-white font-black animate-bounce mt-3 ml-2 text-[35px] ">
+            ↑
+          </p>
+        </div>
+      </div>
 
       <div className="w-full flex">
         <motion.p
