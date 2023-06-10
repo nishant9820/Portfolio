@@ -74,7 +74,7 @@ const Works = () => {
   };
   return (
     <>
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-row justify-between min-h-[300px]">
         <motion.div variants={textVariant()}>
           <p className={`${styles.sectionSubText} `}>My work</p>
           <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
@@ -89,7 +89,7 @@ const Works = () => {
         </motion.div>
       </div>
 
-      <div className="w-full  flex">
+      <div className="w-full  flex min-h-[300px]">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
