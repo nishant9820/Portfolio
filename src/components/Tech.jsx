@@ -14,8 +14,8 @@ const Tech = () => {
           </div>
         ))}
       </div>
-      <div
-        className="  mt-10  sm:bottom-2 
+      {/* <div
+        className="  mt-10  
        flex justify-center items-center"
       >
         <a href="#project">
@@ -23,7 +23,7 @@ const Tech = () => {
             ↓
           </p>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
