@@ -246,6 +246,7 @@ const projects = [
     ],
     image: netflix,
     source_code_link: "https://github.com/nishant9820/netflix-clone",
+    main_link: "https://netflix-clone-ten-cyan.vercel.app/",
   },
   {
     name: "CineBook",
@@ -267,6 +268,7 @@ const projects = [
     ],
     image: cinebook,
     source_code_link: "https://github.com/",
+    main_link: "https://netflix-clone-ten-cyan.vercel.app/",
   },
   {
     name: "ManageHub",
@@ -288,6 +290,7 @@ const projects = [
     ],
     image: managehub,
     source_code_link: "https://github.com/",
+    main_link: "https://netflix-clone-ten-cyan.vercel.app/",
   },
 ];
 
