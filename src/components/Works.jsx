@@ -79,7 +79,7 @@ const Works = () => {
           <p className={`${styles.sectionSubText} `}>My work</p>
           <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
         </motion.div>
-        <div>
+        <motion.div variants={textVariant()}>
           <button onClick={goToSecond}>
             <h2>More</h2>
           </button>
@@ -87,7 +87,7 @@ const Works = () => {
           <p className="text-white font-black animate-bounce mt-3 ml-2 text-[35px] ">
             ↑
           </p>
-        </div>
+        </motion.div>
       </div>
 
       <div className="w-full flex">
