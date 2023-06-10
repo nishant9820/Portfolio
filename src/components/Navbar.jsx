@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants/index";
 import { logo, menu, close } from "../assets";
 const Navbar = () => {
+  const navigate = useNavigate();
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState("");
 
@@ -39,9 +40,10 @@ const Navbar = () => {
               key={link.id}
               className={`${
                 active === link.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-white text-[18px]  font-medium cursor-pointer`}
               onClick={() => {
                 setActive(link.title);
+                navigate(link.url, "_blank");
               }}
             >
               <a href={`#${link.id}`}>{link.title}</a>
@@ -70,6 +72,7 @@ const Navbar = () => {
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(link.title);
+                    window.open(link.url, "_blank");
                   }}
                 >
                   <a href={`#${link.id}`}>{link.title}</a>

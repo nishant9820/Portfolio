@@ -13,16 +13,18 @@ import {
   nodejs,
   mongodb,
   git,
+  blogperson,
   figma,
   docker,
+  cinebook,
   meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
   jobit,
   tripguide,
   threejs,
+  netflix,
 } from "../assets";
 
 export const navLinks = [
@@ -37,6 +39,11 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "Hello",
+    title: "Hello",
+    url: "http://www.netflix.com",
   },
 ];
 
@@ -169,36 +176,39 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const blogs = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    blog: " Introducing iOS 17: Exploring Apple's Latest Innovation in Mobile Operating Systems and Applications",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: blogperson,
+    blog_url:
+      "https://getknowledgeonile.blogspot.com/2023/06/introducing-ios-17-exploring-apples.html",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    blog: " Title: Unleashing the Potential of React Native: Building Powerful Cross-Platform Mobile Apps with Ease",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: blogperson,
+    blog_url:
+      "https://getknowledgeonile.blogspot.com/2023/06/title-unleashing-potential-of-react.html",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    blog: " Title: Unleashing the Potential of React Native: Building Powerful Cross-Platform Mobile Apps with Ease",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: blogperson,
+    blog_url:
+      "https://getknowledgeonile.blogspot.com/2023/06/title-unleashing-potential-of-react.html",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Netflix",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -207,7 +217,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "stripe-api",
         color: "green-text-gradient",
       },
       {
@@ -215,28 +225,70 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: netflix,
+    source_code_link: "https://github.com/nishant9820/netflix-clone",
   },
   {
-    name: "Job IT",
+    name: "CineBook",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A go-to movie booking app. Browse, select, and book tickets for the latest blockbusters with ease. Enjoy convenience and excitement at your fingertips.",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "stripe-api",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "moviedb",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: cinebook,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "ManageHub",
+    description:
+      "An automated management system for maintaining multiple visitors information, contact information, vehicle counts of owners,complaints and maintenance bills.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase-db",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stripe-api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "CineBook",
+    description:
+      "A go-to movie booking app. Browse, select, and book tickets for the latest blockbusters with ease. Enjoy convenience and excitement at your fingertips.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stripe-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "moviedb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cinebook,
     source_code_link: "https://github.com/",
   },
   {
@@ -262,4 +314,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, blogs, projects };

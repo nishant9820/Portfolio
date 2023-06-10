@@ -3,6 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base {
+  body {
+    @apply 
+    !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-purple-700;
+  }
+
+ 
+}
 
 * {
   margin: 0;
