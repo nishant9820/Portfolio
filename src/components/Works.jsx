@@ -74,22 +74,12 @@ const Works = () => {
   };
   return (
     <>
-      <div className="flex flex-row justify-between min-h-[300px]">
-        <motion.div variants={textVariant()}>
-          <p className={`${styles.sectionSubText} `}>My work</p>
-          <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-        </motion.div>
-        <motion.div animate={{ alignItems: "center" }} variants={textVariant()}>
-          <button onClick={goToSecond}>
-            <h1>More</h1>
-          </button>
-          <p className="  text-[#dfd9ff] mt-5 animate-bounce  text-[48px] ml-2">
-            ↑
-          </p>
-        </motion.div>
-      </div>
+      <motion.div variants={textVariant()}>
+        <p className={`${styles.sectionSubText} `}>My work</p>
+        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+      </motion.div>
 
-      <div className="w-full  flex min-h-[300px]">
+      <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
@@ -102,7 +92,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap justify-center gap-7">
+      <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
