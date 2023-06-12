@@ -46,14 +46,14 @@ const Hero = () => {
           className="absolute  bottom-72 w-full
         flex justify-center  items-center"
         >
-          <img src={pc} alt="PC" className="w-full h-full " />
+          <img src={pc} alt="PC" className="w-full h-full" />
         </div>
       ) : (
         <ComputersCanvas />
       )}
 
       <div
-        className="absolute  xs:bottom-5 bottom-32 sm:bottom-72  w-full
+        className="absolute  xs:bottom-5 bottom-32 w-full
        flex justify-center  items-center"
       >
         <a href="#about">
