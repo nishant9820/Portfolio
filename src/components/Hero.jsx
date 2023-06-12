@@ -46,7 +46,7 @@ const Hero = () => {
           className="absolute  bottom-72 w-full
         flex justify-center  items-center"
         >
-          <img src={pc} alt="PC" className="w-screen  h-screen" />
+          <img src={pc} alt="PC" className="w-full h-full" />
         </div>
       ) : (
         <ComputersCanvas />
