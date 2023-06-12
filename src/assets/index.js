@@ -29,8 +29,9 @@ import twitter from "./twitter.png";
 import blog from "./blog.png";
 import managehub from "./managehub.png";
 import webdev from "./webdev.png";
-
+import pc from "./pc.png";
 export {
+  pc,
   netflix,
   logo,
   blogperson,

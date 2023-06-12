@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { pc } from "../assets";
+
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
@@ -39,11 +41,20 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      {isMobile ? "" : <ComputersCanvas />}
+      {isMobile ? (
+        <div
+          className="absolute  bottom-72 w-full
+        flex justify-center  items-center"
+        >
+          <img src={pc} alt="PC" className="w-screen scale-125" />
+        </div>
+      ) : (
+        <ComputersCanvas />
+      )}
 
       <div
         className="absolute  xs:bottom-5 bottom-32 w-full
-       flex justify-center items-center"
+       flex justify-center  items-center"
       >
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
