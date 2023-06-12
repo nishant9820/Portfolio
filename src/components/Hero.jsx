@@ -43,7 +43,7 @@ const Hero = () => {
       </div>
       {isMobile ? (
         <div
-          className="absolute  bottom-96 w-full
+          className="absolute  bottom-72 w-full
         flex justify-center  items-center"
         >
           <img src={pc} alt="PC" className="w-full h-full " />
@@ -51,49 +51,27 @@ const Hero = () => {
       ) : (
         <ComputersCanvas />
       )}
-      {isMobile ? (
-        <div
-          className="absolute  xs:bottom-5 bottom-64   w-full
+
+      <div
+        className="absolute  xs:bottom-5 bottom-32 sm:bottom-72  w-full
        flex justify-center  items-center"
-        >
-          <a href="#about">
-            <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-              <motion.div
-                animate={{
-                  y: [0, 24, 0],
-                }}
-                transition={{
-                  duration: 1.5,
-                  repeat: Infinity,
-                  repeatType: "loop",
-                }}
-                className="w-3 h-3 rounded-full bg-secondary mb-1"
-              />
-            </div>
-          </a>
-        </div>
-      ) : (
-        <div
-          className="absolute  xs:bottom-5 bottom-32   w-full
-       flex justify-center  items-center"
-        >
-          <a href="#about">
-            <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-              <motion.div
-                animate={{
-                  y: [0, 24, 0],
-                }}
-                transition={{
-                  duration: 1.5,
-                  repeat: Infinity,
-                  repeatType: "loop",
-                }}
-                className="w-3 h-3 rounded-full bg-secondary mb-1"
-              />
-            </div>
-          </a>
-        </div>
-      )}
+      >
+        <a href="#about">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+            <motion.div
+              animate={{
+                y: [0, 24, 0],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              className="w-3 h-3 rounded-full bg-secondary mb-1"
+            />
+          </div>
+        </a>
+      </div>
     </section>
   );
 };
