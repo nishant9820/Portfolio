@@ -89,7 +89,9 @@ const Assignment = () => {
   return (
     <div className="mt-[90px]">
       <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Techfolio Showcase</h2>
+        <h2 className={styles.sectionHeadText}>
+          Techfolio<span className="text-[#915eff]"> Showcase </span>
+        </h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
