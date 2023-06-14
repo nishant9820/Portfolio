@@ -7,7 +7,7 @@ import { arrowVariant, slideIn } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 const ProjectCard = ({
   index,
   name,
@@ -69,10 +69,6 @@ const ProjectCard = ({
 };
 
 const Works = () => {
-  const navigate = useNavigate();
-  const goToSecond = () => {
-    navigate("/Projects");
-  };
   return (
     <>
       <div className="flex flex-row justify-between">
@@ -82,9 +78,9 @@ const Works = () => {
         </motion.div>
         <div>
           <motion.div variants={textVariant()}>
-            <button onClick={goToSecond}>
+            <Link to="Projects">
               <h2>More</h2>
-            </button>
+            </Link>
           </motion.div>
           <motion.div variants={arrowVariant()}>
             <p className="text-white font-black animate-bounce mt-3 ml-2 text-[35px] ">

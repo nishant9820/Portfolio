@@ -44,7 +44,7 @@ const ProjectCard = ({
 
         <motion.div variants={slideIn("right", "tween", 0.2, 1)}>
           <>
-            <div className="bg-purple-700 rounded-t-2xl h-full pt-4  transform-gpu hover:scale-95 ease-in-out sm:w-[730px] w-full">
+            <div className="bg-purple-700 rounded-t-2xl h-full pt-5  sm:pt-3 transform-gpu hover:scale-95 transition all ease 0.4s sm:w-[730px] w-full">
               <div className="flex ml-5  flex-row gap-5">
                 <div className=" flex flex-end  card-img_hover">
                   <div

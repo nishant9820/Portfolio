@@ -5,7 +5,7 @@ import { Contact, StarsCanvas } from "./components";
 
 const Projects = () => {
   return (
-    <div className=" z-0  bg-primary">
+    <div className="   bg-primary ">
       <div className="  bg-cover bg-no-repeat bg-center  ">
         <Navbar2 />
         <Assignment />
