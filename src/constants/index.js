@@ -120,7 +120,7 @@ const socials = [
   {
     title: "Instagram",
     icon: insta,
-    social_url: "https://www.instagram.com/nishant_desai8/",
+    social_url: "https://www.instagram.com/nishant_desai7/",
   },
   {
     title: "Facebook",
