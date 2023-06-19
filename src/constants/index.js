@@ -215,13 +215,13 @@ const blogs = [
       "https://getknowledgeonile.blogspot.com/2023/06/title-unleashing-potential-of-react.html",
   },
   {
-    blog: " Title: Unleashing the Potential of React Native: Building Powerful Cross-Platform Mobile Apps with Ease",
+    blog: " Building Custom Dynamic Drawer Navigation in React Native: Best Practices and Tips",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
     image: blogperson,
     blog_url:
-      "https://getknowledgeonile.blogspot.com/2023/06/title-unleashing-potential-of-react.html",
+      "https://nishant-desai.hashnode.dev/building-custom-dynamic-drawer-navigation-in-react-native-best-practices-and-tips",
   },
 ];
 
