@@ -136,7 +136,7 @@ const socials = [
   {
     title: "Blog",
     icon: blog,
-    social_url: "https://getknowledgeonile.blogspot.com/",
+    social_url: "https://nishant-desai.hashnode.dev/",
   },
 ];
 
@@ -197,22 +197,22 @@ const experiences = [
 
 const blogs = [
   {
-    blog: " Introducing iOS 17: Exploring Apple's Latest Innovation in Mobile Operating Systems and Applications",
+    blog: " Mastering Mobile Payments: Integrating Stripe into React Native for Seamless Transactions",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
     image: blogperson,
     blog_url:
-      "https://getknowledgeonile.blogspot.com/2023/06/introducing-ios-17-exploring-apples.html",
+      "https://nishant-desai.hashnode.dev/mastering-mobile-payments-integrating-stripe-into-react-native-for-seamless-transactions",
   },
   {
-    blog: " Title: Unleashing the Potential of React Native: Building Powerful Cross-Platform Mobile Apps with Ease",
+    blog: " ReactNav: Building a Dynamic Base Navigator with React Native for Seamless Exploration",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
     image: blogperson,
     blog_url:
-      "https://getknowledgeonile.blogspot.com/2023/06/title-unleashing-potential-of-react.html",
+      "https://nishant-desai.hashnode.dev/building-a-dynamic-base-navigator-with-react-native",
   },
   {
     blog: " Building Custom Dynamic Drawer Navigation in React Native: Best Practices and Tips",
